@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sauve le poulet !</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <section>
-        <main class="game">
-            <div class="chicken">
-                <img src="assets/poulet.png" alt="chicken character" id="chicken">
-            </div>
-            <div class="chickenEater" id="villainIdDiv">
-                <img src="assets/homme.png" alt="the chiken eater" id="villain">
-            </div>
-            <div class="chickenEaten">
-                <img src="assets/ChickenEaten.png" alt="Eaten" id="chickenEaten">
-            </div>
-        </main>
-        <div class="control">
-            <button onclick="jump()">SAUTER</button>
-            <p>Aide KHessC à éviter Monsieur A. !</p>
-            <button onclick="replay()">JOUER</button>
+      <main class="game">
+        <div class="chicken">
+          <img src="assets/poulet.png" alt="chicken character" id="chicken" />
         </div>
+        <div class="chickenEater" id="villainIdDiv">
+          <img src="assets/homme.png" alt="the chiken eater" id="villain" />
+        </div>
+        <div class="chickenEaten">
+          <img src="assets/ChickenEaten.png" alt="Eaten" id="chickenEaten" />
+        </div>
+      </main>
+      <div class="control">
+        <button onclick="jump()">SAUTER</button>
+        <p>Aide KHessC à éviter Monsieur A. !</p>
+        <button onclick="replay()">JOUER</button>
+      </div>
     </section>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
